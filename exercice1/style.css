@@ -1,0 +1,54 @@
+body {
+        margin: auto;
+        padding-top: 80px;
+        width: 350px;
+        font-family: sans-serif;
+        font-size: 0.8em;
+		background-image: url(carte3.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+		
+        background-color: #679F5A;
+      }
+
+      input[type="submit"] {
+        margin-left: 10px;
+        width: 50px; height: 26px;
+		
+      }
+	  p {
+		  font-family: Verdana;
+		  font-size: 18px;
+			color: red;
+			text-align: center;
+	  }
+      #search {
+        padding: 2px 4px;
+        width: 350px; height: 40px;
+        border: 3px solid red;
+		border-radius: 10px;
+      }
+
+      #search:hover, #search:focus {
+        border-color: #777;
+      }
+
+      #results {
+        display: none;
+        width: 228px;
+        border: 1px solid #AAA;
+        border-top-width: 0;
+        background-color: #FFF;
+      }
+
+      #results div {
+        width: 220px;
+        padding: 2px 4px;
+        text-align: left;
+        border: 0;
+        background-color: #FFF;
+      }
+
+      #results div:hover, .result_focus {
+        background-color: #DDD !important;
+      }
